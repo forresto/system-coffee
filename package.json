@@ -1,0 +1,27 @@
+{
+  "name": "plugin-coffeescript",
+  "version": "0.0.1",
+  "description": "SystemJS plugin for CoffeeScript",
+  "main": "coffee.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/forresto/plugin-coffeescript.git"
+  },
+  "keywords": [
+    "systemjs",
+    "loader",
+    "plugin",
+    "coffeescript"
+  ],
+  "author": "forresto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/forresto/plugin-coffeescript/issues"
+  },
+  "homepage": "https://github.com/forresto/plugin-coffeescript",
+  "jspm": {
+    "dependencies": {
+      "coffee-script": "npm:coffee-script@^1.8.0"
+    }
+  }
+}
