@@ -1,5 +1,7 @@
-class coffeeTest
+module.exports = class coffeeTest
   constructor: (@message) ->
   go: (count) ->
+    out = ""
     for i in [0..@count]
-      document.body.appendChild "#{@message} #{i}! "
+      out += "#{@message} #{i}! "
+    return out
