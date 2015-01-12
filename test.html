@@ -2,19 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>SystemJs-CoffeeScript plugin test</title>
+  <title>SystemJS-CoffeeScript plugin test</title>
   <script src="jspm_packages/system.js"></script>
   <script src="config.js"></script>
-  <script>
-    System.import('./test.coffee!')
-      .then(function (test) {
-        var t = new test('Test');
-        document.body.append(t.message(3));
-      })
-      .catch(function (err) {
-        console.log('ERROR: ', err);
-      });
-  </script>
+  <script src="test.js"></script>
 </head>
 <body>
   Wait for it... 
