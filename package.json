@@ -1,6 +1,6 @@
 {
   "name": "plugin-coffee",
-  "version": "0.0.1",
+  "version": "1.8.0",
   "description": "SystemJS plugin for CoffeeScript",
   "main": "coffee.js",
   "repository": {
