@@ -1,4 +1,26 @@
 # plugin-coffee
 SystemJS plugin for compiling CoffeeScript
 
-For now, requires `<script src="http://coffeescript.org/extras/coffee-script.js"></script>` in the html page. Should be able to replace that with a proper jspm dependency.
+```
+jspm install github:forresto/plugin-coffee
+```
+
+In config.js:
+
+``` javascript
+System.config({
+  map: {
+    coffee: "plugin-coffee"
+  }
+});
+```
+
+In your app:
+
+``` javascript
+System.import('./test.coffee!')
+  .then(function (test) {
+    var t = new test('Test');
+    console.log(t);
+  })
+```
