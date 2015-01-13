@@ -1,7 +1,4 @@
-// Ideally, this would be a proper jspm dependency.
-// For now, using http://coffeescript.org/extras/coffee-script.js
-// var Coffee = require('coffee-script');
-var Coffee = window.CoffeeScript;
+var Coffee = require('./coffee-script');
 
 exports.translate = function(load) {
   var output = Coffee.compile(load.source, {

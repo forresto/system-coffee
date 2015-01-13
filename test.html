@@ -4,9 +4,6 @@
   <meta charset="UTF-8">
   <title>SystemJS-CoffeeScript plugin test</title>
   <script src="jspm_packages/system.js"></script>
-  <script src="config.js"></script>
-  <!-- Ideally, this would be a proper jspm dependency. -->
-  <script src="http://coffeescript.org/extras/coffee-script.js"></script>
   <script>
     System.import('./test.coffee!')
       .then(function (test) {
