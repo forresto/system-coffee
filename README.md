@@ -2,7 +2,7 @@
 SystemJS plugin for compiling CoffeeScript
 
 ```
-jspm install github:forresto/plugin-coffee
+jspm install coffee
 ```
 
 In config.js:
