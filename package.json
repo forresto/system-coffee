@@ -19,5 +19,9 @@
     "url": "https://github.com/forresto/plugin-coffee/issues"
   },
   "homepage": "https://github.com/forresto/plugin-coffee",
-  "jspm": {}
+  "jspm": {
+    "dependencies": {
+      "coffee-script": "npm:coffee-script@^1.9.1"
+    }
+  }
 }
