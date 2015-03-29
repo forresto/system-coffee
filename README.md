@@ -1,4 +1,4 @@
-# plugin-coffee
+# system-coffee
 SystemJS plugin for compiling CoffeeScript
 
 ```
@@ -10,7 +10,7 @@ In config.js:
 ``` javascript
 System.config({
   map: {
-    coffee: "plugin-coffee"
+    coffee: "system-coffee"
   }
 });
 ```
