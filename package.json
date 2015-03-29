@@ -5,7 +5,7 @@
   "main": "coffee.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/forresto/plugin-coffee.git"
+    "url": "https://github.com/forresto/system-coffee.git"
   },
   "keywords": [
     "systemjs",
@@ -16,8 +16,8 @@
   "author": "forresto",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/forresto/plugin-coffee/issues"
+    "url": "https://github.com/forresto/system-coffee/issues"
   },
-  "homepage": "https://github.com/forresto/plugin-coffee",
+  "homepage": "https://github.com/forresto/system-coffee",
   "jspm": {}
 }
